@@ -287,3 +287,55 @@ h5 {
 .social {
     margin: 0 3px 0 3px;
 }
+
+
+/* Media */
+
+@media (max-width: 767px) {
+    .page-title {
+        font-size: 25px;
+    }
+
+    a.btn {
+        margin: 50px 0 0 0;
+    }
+
+    .navigation-section a {
+        font-size: 11px;
+    }
+
+    li.navigation-section {
+        margin: 30px 5px 0 0;
+    }
+
+    img {
+        width: 50px;
+        height: 30px;
+    }
+
+    .page-subtitle {
+        font-size: 30px;
+    }
+
+    .info {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .info li {
+        margin: auto;
+
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .copy {
+        text-align: center;
+    }
+
+    .title {
+        margin-top: 22px;
+    }
+    }
