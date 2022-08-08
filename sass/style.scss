@@ -79,25 +79,25 @@ section {
 
 .title {
     color: #ff764e;
-    margin-top: 62px;
     font-size: 35px;
-    width: 150px;
-    height: 90px;
 }
 
-ul {
+.navigation {
     list-style: none;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    padding-top: 70px;
 }
 
-li {
-    display: inline-block;
+nav {
+    display: flex;
 }
 
-.navigation-section {
-    float: right;
-    margin: 70px 10px 0 10px;
-
+nav div {
+    margin-left: 10px;
 }
 
 .navigation-section a {
