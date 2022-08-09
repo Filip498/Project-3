@@ -90,10 +90,12 @@ section {
     align-items: center;
     padding: 0 20px;
     padding-top: 70px;
+    flex-wrap: wrap;
 }
 
 nav {
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav div {
@@ -145,6 +147,10 @@ h1 {
     transition: all 1.3s;
 }
 
+.social-media-content {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /*Services*/
 
@@ -294,14 +300,6 @@ ul {
         margin: 50px 0 0 0;
     }
 
-    .navigation-section a {
-        font-size: 11px;
-    }
-
-    li.navigation-section {
-        margin: 30px 5px 0 0;
-    }
-
     .page-subtitle {
         font-size: 30px;
     }
@@ -323,8 +321,10 @@ ul {
     .copy {
         text-align: center;
     }
+}
 
-    .title {
-        margin-top: 22px;
+@media (max-width: 450px) {
+     .nav {
+        flex-direction: column;
     }
-    }
+}
